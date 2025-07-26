@@ -1,0 +1,51 @@
+=== Benchmark start ===
+
+Simple Sieve run 1: found 664,579 primes, time 1.192 sec, largest prime 9,999,991
+Simple Sieve run 2: found 664,579 primes, time 1.162 sec, largest prime 9,999,991
+Simple Sieve run 3: found 664,579 primes, time 1.196 sec, largest prime 9,999,991
+Simple Sieve run 4: found 664,579 primes, time 1.179 sec, largest prime 9,999,991
+Simple Sieve run 5: found 664,579 primes, time 1.160 sec, largest prime 9,999,991
+
+Simple Sieve avg: found 664,579 primes, avg time 1.178 sec
+
+Trial Division Basic run 1: found 181,297 primes, time 1.000 sec, largest prime 2,473,717
+Trial Division Basic run 2: found 179,162 primes, time 1.000 sec, largest prime 2,442,497
+Trial Division Basic run 3: found 180,527 primes, time 1.000 sec, largest prime 2,462,329
+Trial Division Basic run 4: found 180,720 primes, time 1.000 sec, largest prime 2,465,011
+Trial Division Basic run 5: found 180,681 primes, time 1.000 sec, largest prime 2,464,571
+
+Trial Division Basic avg: found 180,477 primes, avg time 1.000 sec
+
+Trial Division 6k±1 Optimization run 1: found 202,111 primes, time 1.000 sec, largest prime 2,781,397
+Trial Division 6k±1 Optimization run 2: found 199,797 primes, time 1.000 sec, largest prime 2,747,021
+Trial Division 6k±1 Optimization run 3: found 200,466 primes, time 1.000 sec, largest prime 2,757,049
+Trial Division 6k±1 Optimization run 4: found 200,379 primes, time 1.000 sec, largest prime 2,755,829
+Trial Division 6k±1 Optimization run 5: found 200,379 primes, time 1.000 sec, largest prime 2,755,829
+
+Trial Division 6k±1 Optimization avg: found 200,626 primes, avg time 1.000 sec
+
+Wheel Sieve 2,3,5 run 1: found 395,484 primes, time 1.000 sec, largest prime 5,274,649
+Wheel Sieve 2,3,5 run 2: found 439,372 primes, time 1.000 sec, largest prime 5,893,973
+Wheel Sieve 2,3,5 run 3: found 418,832 primes, time 1.000 sec, largest prime 5,603,737
+Wheel Sieve 2,3,5 run 4: found 418,678 primes, time 1.000 sec, largest prime 5,601,593
+Wheel Sieve 2,3,5 run 5: found 419,278 primes, time 1.000 sec, largest prime 5,610,277
+
+Wheel Sieve 2,3,5 avg: found 418,329 primes, avg time 1.000 sec
+
+Naive Prime Check run 1: found 8,107 primes, time 1.000 sec, largest prime 83,003
+Naive Prime Check run 2: found 7,814 primes, time 1.000 sec, largest prime 79,801
+Naive Prime Check run 3: found 7,821 primes, time 1.000 sec, largest prime 79,843
+Naive Prime Check run 4: found 7,805 primes, time 1.000 sec, largest prime 79,669
+Naive Prime Check run 5: found 7,820 primes, time 1.000 sec, largest prime 79,841
+
+Naive Prime Check avg: found 7,873 primes, avg time 1.000 sec
+
+Segmented Sieve run 1: found 7,656,705 primes, time 1.124 sec, largest prime 135,209,699
+Segmented Sieve run 2: found 7,656,705 primes, time 1.111 sec, largest prime 135,209,699
+Segmented Sieve run 3: found 7,656,705 primes, time 1.111 sec, largest prime 135,209,699
+Segmented Sieve run 4: found 6,954,434 primes, time 1.010 sec, largest prime 122,099,717
+Segmented Sieve run 5: found 7,656,705 primes, time 1.099 sec, largest prime 135,209,699
+
+Segmented Sieve avg: found 7,516,251 primes, avg time 1.091 sec
+
+=== Benchmark end ===
