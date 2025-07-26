@@ -36,3 +36,13 @@ function segmentedSieve() {
         time: (performance.now() - t0) / 1000
     }
 }
+
+if (typeof module !== 'undefined' && module.exports) module.exports = { segmentedSieve }    // node.js
+if (typeof window !== 'undefined') {                                                        // browser/global usage
+    if (!window.performance) window.performance = Date  // (fallback)   for performance.now()
+    if (!window.Uint8Array) window.Uint8Array = Array   // (fallback)   for Uint
+
+    // document ready check //
+    if (document.readyState === 'complete') window.segmentedSieve = segmentedSieve
+    else window.addEventListener('load', () => window.segmentedSieve = segmentedSieve)
+}
